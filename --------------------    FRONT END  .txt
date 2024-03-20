@@ -1,0 +1,208 @@
+--------------------*************************    FRONT END    *********************------------
+-------------------------       HTML   ----------------------------------------------
+HTML: it is hyper text markup language
+    we can create black and white websites....
+    hyper text means a special text designed or develepod for web browsers
+WEBSITE:
+	it is a collection of webpages...
+WEB PAGE:
+	it is a combination of paragraghs /images/videos/audios/headings.. etc
+WEB BROWSER:
+	eg:
+ 		chrome /microsoft edge/firefox/uc browsers....eTC
+SEARCH ENGINE:
+		GOOGLE/MICROSOFT WORD / BING( BELOW UR DESKTOP ICON)/YAHOO
+HTTPS:
+	hyper text transfer protocols with secure
+HTTP:'
+	hyper text transfer protocol
+    ( IF U WANT HTTPS THEN WE NEED TO SEND REQUEST FOR SECURE THROUGH GO DADDY ITS AN OFFICIAL WEBSITE WHERE WE CAN PAY AND GET HTTPS and also with godaddy we can buy an website of our own domain that can  be an article or anything)
+ """ in websites picture supporting formats are:""
+> JPEG: 
+	Joint photographic expert group
+> png:
+  	portable network graphics
+> """ TO DOWNLOAD IMAGES WE HERE USE "HTTPS://UNSPLASH.COM"-- GIVES QUALITY IMAGES"""
+     and  PIXELS.COM -- from here also we can download images juz like unsplash
+    WWW.INSPANNER.COM: 
+				is a url:( uniform resource locator)
+						web address,just like an path to a file
+
+
+once we booked an website that is blocked cant be used by others with same url i.e its like a primary key
+  """"URL"""": https://www.hostinger.com/tutorials/what -is - a -domain- name
+>> parts of a url:	
+       
+	(HTTPS://)(WWW.)(HOSTINGER.COM)(/TUTORIALS/WHAT-IS-A-DOMAIN-NAME)
+        |        |          |                 |
+        protocol sub domain domain name       path/page
+the editors we use :
+   > for html :
+            > notepad
+	    > notepad++
+	> sublime text
+        > visual code
+	> atom
+	> brackets...etc
+"""> project folder creation:
+    project name--> html-->(ROOT OR MAIN FOLDER)
+css/js/fonts/images(4 SUB FOLDERS)/index.html( a html file)
+ > now creating a folder namely: nikitha html
+> now the sub folders are needed to b created in them 
+   > TO CREATE A SUB FOLDER THE SHORTCUT KEY IS:
+		CTRL+SHIFT+N
+({if we wanna know html code of any website just visit that website and press"ctrl u" you will get its html code)}
+HTML SYNTAX:- 
+<!DOCTYPE html>  
+<html> 
+<head> 
+<title> </title> 
+</head> 
+<body> 
+Body Tag open and close!!  
+</body> 
+</html>
+<!DOCTYPE html>--> Documentation type version of the html also  
+Head--> css links js links external links  
+ 
+Body --> what we are seeing on browser.....
+***************INTRODUCTION TO CSS********************
+CSS:- cascading style sheets
+there r 3 types of style sheets:
+1) inline stylesheet (we can write within the tag)
+2) internal stylesheet(with in the head part)
+3) external stylesheet(external file like mystyle.css)
+> we will convert white and black webpages to colorful pages...
+the drawback of inline stylesheet is that we need to type color names as many times we need ,each n everytime typing isnt possible so its drawback
+border radius: curving the edges of a border
+some of the css properties are:-
+	margin and padding:
+		margin:
+		it gives space between the two elements..
+>        padding:
+		it gives space inside the element
+
+
+
+<a href="https://www.facebook.com">click & go</a>
+"C:\Users\Nikitha\Pictures\Screenshots\Screenshot 2023-10-26 160846.png"--> by clicking this we can see the pictorial reprsentation of margin and padding,border
+>>>element:-
+	<a href="https://www.google.com"> google is a good platform</a>
+	<a>:- open tag
+	</a>:- closed tag
+	href: it is an attribute which gives additional strength to the tag.
+	https://www.google.com  :-- it is attribute value.
+
+<img src="images/egg.jpg" width="600px" height="800px">
+  here height and width are attributes.
+>>>>>>BOX MODEL:-
+		"C:\Users\Nikitha\Pictures\Screenshots\Screenshot 2023-10-26 160846.png"--> by clicking this we get 2 know box-model.
+>>>>>>>SELECTORS:
+			we have many types of selectors in css, but here we regularly use only 6 types of selectors.
+1) tag selector(p,div,span)
+2) class selector(.kk,.bnk)
+3) id selector(#menu,#nav)
+4) group selector(p,.kk,#menu)
+5) tag with attribute selector(input[type="text"])
+6) universal selectors.(*)
+>>>>> COMBINATORS:-
+			we have 4 types in them.
+1) DESCENDENT SELECTORS.(DIV P)
+2) CHILD SELECTOR (DIV>P)
+3) ADJACENT SIBLING SELECTOR (DIV+P)
+4) GENERAL SIBLING SELECTOR.(DIV~P)
+
+/* -----------css shapes and block level elements & inline elements:-------------*/
+
+BLOCK LEVEL ELEMENTS:-
+	--> it will occupies total width
+	--> output will come one by one  alignment
+	---> ex:- <p> <div> <h1> ....<h6> html5 tags,etc...
+INLINE LEVEL ELEMENTS:-
+ 
+--> IT WILL OCCUPIES CONTENT WIDTH
+--> output will come side by side alignment
+--> ex:- <span> <i> <b> <img> <a> <input> etc
+-------------------------------------------------------
+HTML5 was introduced in 2014,it is the latest version
+>HTML5 semantic elements  :-
+	(meaningfull elements)
+		<header> </header>
+		<footer> </footer>
+		<nav> </nav>
+		<figure> </figure>
+		<figcaption> </figcaption	`	
+		<section> </section>
+		<aside> </aside>
+		<time> </time>
+		<address> </address>
+		<article> </article>
+
+> HTML5 form2.0 :-
+		
+> HTML5 multimedia tags(audio,video)
+-----------------*****v.v.vimp topics-------------------
+>>> transition:
+>>>transform:
+>>>keyframes:
+
+---------------------------------------------
+(>>fieldset : used to border a form)
+(>> for icons download we use website:- fontawesome 4.7)
+----------------------------------------------------
+
+******vv imp********
+	HTML5 web browsers
+
+		a web worker is a java script running in the background ,without affecting the performance of the page.
+1) what is web worker?
+	ans)
+		a web worker is a javascript that runs in the background ,independently of other scripts,without affecting the performance of the page .you can comtinue to do whatever you want: clicking,selctimg,etc..
+while the web worker runs in the background.
+2) HTML CANVAS
+		the html <canvas> element is used to draw graphics on we page.
+the <html> canvas element is used to draw graphics ,on the fly via javASCript .it is only a container for graphics ,we must use js to actually draw the graphics
+canvas has several methods for drawing paths,boxes ,circles ,text,and adding images.
+---------------------------------------------
+for html hexadecimal colors,we need to juz type html color codes in google and copy our desired code
+-------------------------------------------------------
+symbols like @ ,>, cant be used directly from typing from keyboard ,in google we need to type html entities and we need to copy paste our desired symbol's code
+------------------------------------------------------------
+flex wrap:A Flex wrap is a property that specifies whether the flexible items should wrap or not. In addition, it lets you distribute flex items across multiple lines when it does not fit into the first line of the flex container.			
+
+justify-content:
+	it is the property that aligns the flexible containers items when the items do not use all available space
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------						JAVA SCRIPT (JS)
+						>>>>>>>>>>>>>>>>>
+*) APPLICATION OF JAVA SCRIPT  :--
+_______________________________
+
+	javascript is used to create interactive websites.it is mainly used for :
+ ....>  client-side validation
+......> displaying date and time;
+.......> displaying pop-up windows and dialog boxes like an alert dialog box,confirm dialog box and prompt dialog box).
+
+ ** 1) javascript provides 3 places to put the javascript code.within body tag,within head tag,and external js file
+*) variable in js:-
+_________________
+	a js variable is simply just a name of storage location.
+there are some rules describing a js variable(also known as identifiers)
+1) name must be start with letter ,underscore or dollar.
+2) after first letter we can use digits:eg:- r1,n1...
+3) js variables are case sensitive ,for example x and X are different variables.
+		var keyword to create variable
+			var john=100;
+			var sat="a";
+			var $jo=200;
+			var _io=400;
+
+
+
+
+          
+		
+
+
+
+
+
