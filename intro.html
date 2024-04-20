@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<audio controls autoplay loop="3">/* to connect audio to a website*/
+		<source src="C:\Users\Nikitha\Desktop\html_sublime2\html\images\audio.mp3.mp3"" type="audio/mp3">
+	</audio>
+/*src is copied from copy as path option for our selected song*/
+<video controls width=500px height=400px autoplay loop="5">
+	<source src="C:\Users\Nikitha\Downloads\Prabhas-Birthday-Mashup-Whatsapp-Status-Video.mp4"" type="video/mp4">
+</video>
+<address> /* it displays address in a new font*/
+	hno:1-50, jammikunta,warangal
+</address>
+<time> 17:11 IST</time>
+<form action="db.py" method="post">
+	/* here'*' is it is imp to fill email field*/
+	<label> ENTER YOUR EMAIL:- <sup>*</sup></label>
+	<input type="email" name="myemail" placeholder="enter ur email here" required>
+	/*placeholder acts as value,place holder is erased directly wen typing ,whereas value we need to erase it*/
+	<input type="submit" value="submit">
+	<br>
+	<label> enter ur phne no</label>
+	/*tel is used for mob no*/
+	<input type="tel" name="enter mob-number" value="enter mobile no" autofocus autocomplete autosave="">/* auto focus is used to highlight box*/
+	<br>
+	<input type="color" name="">
+	<br>
+	<input type="url" name="url" placeholder="enter web address">
+	<br>
+	<input type="range" name="" hidden>/* hidden is an attribute which hides particular tag*/
+	<br>
+	<label>enter ur shoe size:-</label>
+	<input type="number" name="num"  value="10" min="5" max="15">
+	<br>
+	/*name is used to identify uniquely ,as input type can be same for more than one  box*/
+	<label> enter ur shirt size:-</label>
+	<input type="number" name="shirtno" value="xs">
+	<br>
+	<input type="date" name="">
+	<br>
+	<input type="month" name="">
+	<br>
+	<input type="week" name="">
+	<br>
+	<input type="datetime-local" name="">
+	<br>
+	<input type="file" name="">
+	<label> choose ur fav fruit:-</label>
+	<input type="text" name="" list="fruits">
+	/*list and id should b same*/
+	<datalist id="fruits">
+		<option> mango</option>
+		<option> orange</option>
+		<option> grapes</option>
+		<option> papaya</option>
+	</datalist>
+	<label> choose country code</label>
+	<input type="text" name="cc" pattern="[0-9]{6}[a-z]{2} [A-Z]{3}" required title="6 numbers,2 small letters ,3 cap letters should b entered"> /*using title we can restrict or guide users for the format*/
+    
+
+
+	<input type="submit" value="submit">
+	
+	
+
+
+</form>
+</body>
+</html>
